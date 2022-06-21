@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+<bean id="Customer" class="first.Customer">
+    <constructor-arg index="0" type="int" value="12"/>
+    <constructor-arg index="1" value="Ramya"/>
+    <constructor-arg index="2" type="long" value="8919809753"/>
+    <constructor-arg index="3" ref="Address"/>
+</bean>
+    <bean id="Address" class="first.Address">
+        <constructor-arg index="0" value="India"/>
+        <constructor-arg index="1" value="Guntur"/>
+        <constructor-arg index="2" value="Andhra pradesh"/>
+        <constructor-arg index="3" type="int" value="522004"/>
+        <constructor-arg index="4" value="8"/>
+    </bean>
+</beans>
