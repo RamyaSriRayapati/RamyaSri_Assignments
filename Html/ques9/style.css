@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+table,td,tr{
+    border: 1px solid black;
+}
+
+#top{
+    height: 50px;
+}
+
+#t1{
+    background-color:darkgrey;
+}
+#t2{
+    background-color:darkgray;
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+}
+
+#bottom{
+    height: 50px;
+}
+
+#b1{
+    background-color:darkgray;
+}
+#b2{
+    background-color:darkgrey;
+}
