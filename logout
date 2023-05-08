@@ -1,0 +1,27 @@
+import React  from 'react';
+import image from '../images/Logo.png';
+import image2 from '../images/Logo2.png';
+const Logout = () => {
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100vh' , backgroundColor:'#000033' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', padding: '10px',color:'white' }}>
+          <div style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
+            <img src={image} alt="Logo" style={{ height: '250px', marginRight: '10px',  boarderRadius:'190%' }} />
+           <p> <h1>E-Library</h1><br />
+           <h2 style={{marginTop:'0px',color:'white',marginLeft:'60px'}}>poweredby</h2><br />
+           <img src={image2} alt="Logo2" style={{ height: '50px', marginLeft:'200px', marginRight: '5px',borderRadius:'70%' }} />
+           </p>
+          </div>
+        </div>
+        <div >
+        <h1 style={{marginTop:'10px',color:'white',marginLeft:'60px'}}> You have successfully Logged out, Thank You !​</h1>
+        </div>
+        <form style={{ display: 'flex', flexDirection: 'column', alignItems: 'center',marginTop:'10vh',marginBottom:'50vh',backgroundColor:'#000033',boxShadow:'initial'}}>
+          <button type="submit" style={{backgroundColor:'#000033',color:'white',marginTop:'15px',borderWidth:'2px',borderTopColor:'white',borderLeftColor:'white',borderRightColor:'white',borderBottomColor:'white'}}>go back to login </button>
+          <h4 style={{color:'grey',marginTop:'50px',marginLeft:'180px'}}>Capgemini Public</h4>
+        </form>
+      </div>
+    );
+  };
+  
+  export default Logout;
