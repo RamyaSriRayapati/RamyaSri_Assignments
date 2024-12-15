@@ -35,7 +35,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring</artifactId>
-    <version>5.3.8</version>
+    <version>5.3.25</version>
     <type>pom</type>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.springframework/spring-expression -->
